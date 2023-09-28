@@ -1,34 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
+# Start Application
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## GitHub Link
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+I plan to deploy my application to Vercel. My choice of Vercel is motivated by several factors:
 
-## Learn More
+-**Speed and Ease of Deployment:** Vercel provides a fast and easy way to deploy web projects. It offers a streamlined deployment process, allowing me to focus on deployment without the concern of any complex deployment configurations.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-**Global Content Delivery:** Vercel includes a Global CDN (Content Delivery Network), ensuring that my web content can be deliverd to users worldwide with minimal latency. This is crucial for providing a responsive and efficient user experience. 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+-**Automatic HTTPS:** Vercel automatically secures my application with HTTPS, enhancing security and trustworthiness.
 
-## Deploy on Vercel
+##Styling
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+For styling my application, I have chosen a combination of Tailwind CSS and self-coded CSS frameworks. My motivation for this choice is as follows:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+-**Tailwind CSS:** I will leverage Tailwind CSS for its utility-first approach to styling, as it provides a highly customizable way to style components.
+
+-**Self-Coded CSS Frameworks:** While Tailwind CSS offers great utility, I have opted to include some self-coded CSS frameworks to provide a unique and customized visual experience. By combining Tailwind CSS and self-coded CSS frameworks, I aim to strike a balance between rapid development and full creative control over my application's design.
